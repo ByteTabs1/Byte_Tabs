@@ -39,29 +39,23 @@ function openNav() {
   
 
 
-
-
-
-
-
-
   function scrollNavbar(direction) {
     const navbar = document.getElementById('navbar');
-    if (direction === 'left') {
-      navbar.scrollLeft -= 160; // Adjust the scroll distance as needed
-    } else if (direction === 'right') {
-      navbar.scrollLeft += 160; // Adjust the scroll distance as needed
-    }
-  }
-
-  function toggleAnchor(anchor) {
-    // Hide all anchor tags
     const allAnchors = document.querySelectorAll('.navbar a');
-    allAnchors.forEach(a => a.style.display = 'none');
-
-    // Show the clicked anchor tag
-    anchor.style.display = 'inline-block';
+  
+    // Calculate the total width of all anchor tags
+    const totalWidth = Array.from(allAnchors).reduce((acc, anchor) => acc + anchor.offsetWidth, 0);
+  
+    // Calculate the width of the visible portion of the navbar
+    const visibleWidth = navbar.clientWidth;
+  
+    // Determine the scroll distance based on the direction and the number of anchor tags visible
+    const scrollDistance = direction === 'left' ? -visibleWidth : visibleWidth;
+  
+    // Perform the scroll
+    navbar.scrollLeft += scrollDistance;
   }
+  
 
 
 
@@ -82,7 +76,7 @@ function openNav() {
     }
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].classList.add("active"); // Set active class for the current slide's dot
-    setTimeout(showSlides, 2000); // Change image every 10 seconds
+    setTimeout(showSlides, 6000); // Change image every 10 seconds
   }
   
   // Add the following line to ensure the initial dot is set to active
