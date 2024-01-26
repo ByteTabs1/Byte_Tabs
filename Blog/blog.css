@@ -386,6 +386,230 @@ dots/bullets/indicators */
 
 
 
+
+ .section-4{
+  height:550px;
+  padding-top: 60px;
+
+  width:100%;
+  background-color:  #edeeef;
+  padding-bottom:60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+ }
+
+ .section-heading{
+  height:15%;
+  width:70%;
+  display: flex;
+  align-items: center;
+  flex-direction:row;
+  justify-content: space-between;
+ }
+
+ .section-heading>button{
+  padding: 5px 10px;
+  margin-right: 20px;
+  border-radius: 10px;
+  border-style: none;
+
+  font-size: 14px;
+  font-weight: 600;
+  color: #FB6E0F;
+  border-radius: 10px;
+  width:100px;
+  border-style: none;
+  background-color: white;
+
+ }
+
+ .section-content{
+  height:85%;
+  width:70%;
+ }
+ .cards{
+  width:100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+ }
+ .card{
+  height:100%;
+  width:32%;
+  background-color: white;
+  border-radius: 50px 50px 20px 20px ;
+ }
+.card>img{
+  height:55%;
+  width:100%;
+  border-radius: 20px 20px 0px 0px;
+}
+.card>.card-content{
+  margin-top:-5px;
+  height:45%;
+  border-radius:0px 0px 20px 20px  ;
+  padding: 8% 20px  5px 20px ;
+}
+.card>.card-content>.author{
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+.card>.card-content>.author>img{
+  width:45px;
+  height:45px;
+  border-radius: 50%;
+}
+.card>.card-content>.author>span{
+  margin-left: 10px;
+}
+.card>.card-content>.author>span>p:nth-child(2){
+ font-size: 12px;
+ margin-top: 2px;
+}
+
+
+
+/* 
+//////////////////////////////////////
+ */
+
+
+ 
+ .section-5{
+  height:650px;
+  padding-top: 60px;
+
+  width:100%;
+  background-color: #edeeef;
+  padding-bottom: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+ }
+ .boxes{
+  width:100%;
+  height:100%;
+  display: flex;
+  justify-items: auto;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ }
+ .boxes>.box{
+  width: 49%;
+  height: 46%;
+background-color: white;
+display: flex;
+border-radius: 20px;
+ }
+ .boxes>.box>img{
+  border-radius: 20px 0px  0px 20px;
+ }
+ .boxes>.box>.box-content{
+  padding: 25px 10px 30px 20px;
+ }
+ .box>.box-content>.author{
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+.box>.box-content>.author>img{
+  width:45px;
+  height:45px;
+  border-radius: 50%;
+}
+.box>.box-content>.author>span{
+  margin-left: 10px;
+}
+.box>.box-content>.author>span>p:nth-child(2){
+ font-size: 12px;
+ margin-top: 2px;
+}
+
+
+/* 
+
+/////////////////////////////////////////
+
+ */
+
+
+ .section-6{
+  height:600px;
+  padding-top: 60px;
+  width:100%;
+  background-color: #edeeef;
+  padding-bottom: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+ }
+ .section-6>.section-content{
+  padding-top: 20px;
+ }
+ .section-part{
+  width:100%;
+  height:100%;
+  display: flex;
+  justify-items: auto;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ }
+
+ .section-part>.section-part-content{
+  width: 49%;
+  height: 100%;
+background-color: white;
+display: flex;
+border-radius: 20px;
+ }
+ .section-part>.section-part-content>img{
+  border-radius: 20px 0px  0px 20px;
+  width:45%
+ }
+  .section-part>.section-part-content>.box-content{
+  padding: 25px 10px 30px 20px;
+
+ }
+ .section-part>.section-part-content>.box-content>button{
+ padding: 5px 10px;
+ border-radius: 10px;
+ border-style: none;
+margin-bottom: 20px;
+ font-size: 12px;
+ font-weight: 600;
+ color: #FB6E0F;
+ border-radius: 10px;
+ width:80px;
+ border-style: none;
+ background-color: rgb(241, 240, 240);
+}
+.section-part>.section-part-content>.box-content>h4{
+  margin-top: 10px;
+}
+  .section-part>.section-part-content>.box-content>.author{
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+ .section-part>.section-part-content>.box-content>.author>img{
+  width:45px;
+  height:45px;
+  border-radius: 50%;
+}
+ .section-part>.section-part-content>.box-content>.author>span{
+  margin-left: 10px;
+}
+ .section-part>.section-part-content>.box-content>.author>span>p:nth-child(2){
+ font-size: 12px;
+ margin-top: 2px;
+}
+
+
+
 /*   
 ///////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////  
