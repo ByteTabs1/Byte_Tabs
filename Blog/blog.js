@@ -82,7 +82,7 @@ function openNav() {
     }
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].classList.add("active"); // Set active class for the current slide's dot
-    setTimeout(showSlides, 2000); // Change image every 10 seconds
+    setTimeout(showSlides, 4000); // Change image every 10 seconds
   }
   
   // Add the following line to ensure the initial dot is set to active
